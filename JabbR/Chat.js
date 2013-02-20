@@ -925,7 +925,7 @@
         ui.initialize(state.preferences);
 
         ui.addMessage('Welcome to ' + originalTitle, 'notification');
-        ui.addMessage('Use ? or type /? to display the FAQ and list of commands', 'notification');
+        ui.addMessage('Use ? or type /? to display the FAQ and list of commands jean', 'notification');
 
         function initConnection() {
             var logging = $.cookie('jabbr.logging') === '1',
